@@ -1,7 +1,7 @@
 ﻿
 namespace TiendaDeLibros
 {
-    partial class Form1
+    partial class LoginReg
     {
         /// <summary>
         /// Required designer variable.
@@ -42,6 +42,7 @@ namespace TiendaDeLibros
             this.label4 = new System.Windows.Forms.Label();
             this.PasswordText = new System.Windows.Forms.MaskedTextBox();
             this.EmailText = new System.Windows.Forms.MaskedTextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.UserNameText = new System.Windows.Forms.MaskedTextBox();
@@ -53,21 +54,22 @@ namespace TiendaDeLibros
             this.label14 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.LastNameText = new System.Windows.Forms.MaskedTextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.LoginPasswordText = new System.Windows.Forms.MaskedTextBox();
+            this.LoginUserNameText = new System.Windows.Forms.MaskedTextBox();
             this.FirstNameText = new System.Windows.Forms.MaskedTextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.LoginUserNameText = new System.Windows.Forms.MaskedTextBox();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.LoginPasswordText = new System.Windows.Forms.MaskedTextBox();
+            this.LoginButton = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(61)))), ((int)(((byte)(77)))));
+            this.panel1.Controls.Add(this.LoginButton);
             this.panel1.Controls.Add(this.label19);
             this.panel1.Controls.Add(this.label18);
             this.panel1.Controls.Add(this.panel2);
@@ -233,6 +235,19 @@ namespace TiendaDeLibros
             this.EmailText.Size = new System.Drawing.Size(237, 32);
             this.EmailText.TabIndex = 2;
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.Location = new System.Drawing.Point(619, 119);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(108, 25);
+            this.label21.TabIndex = 1;
+            this.label21.Text = "Contraseña";
+            this.label21.Click += new System.EventHandler(this.label3_Click);
+            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -372,6 +387,19 @@ namespace TiendaDeLibros
             this.label9.Text = "*";
             this.label9.Click += new System.EventHandler(this.label2_Click);
             // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.Location = new System.Drawing.Point(650, 70);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(77, 25);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Usuario";
+            this.label20.Click += new System.EventHandler(this.label2_Click);
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -406,6 +434,23 @@ namespace TiendaDeLibros
             this.label2.Text = "Apellido";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // LoginPasswordText
+            // 
+            this.LoginPasswordText.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.LoginPasswordText.Location = new System.Drawing.Point(752, 119);
+            this.LoginPasswordText.Name = "LoginPasswordText";
+            this.LoginPasswordText.PasswordChar = '•';
+            this.LoginPasswordText.Size = new System.Drawing.Size(237, 32);
+            this.LoginPasswordText.TabIndex = 2;
+            // 
+            // LoginUserNameText
+            // 
+            this.LoginUserNameText.Font = new System.Drawing.Font("Segoe UI", 14F);
+            this.LoginUserNameText.Location = new System.Drawing.Point(752, 67);
+            this.LoginUserNameText.Name = "LoginUserNameText";
+            this.LoginUserNameText.Size = new System.Drawing.Size(237, 32);
+            this.LoginUserNameText.TabIndex = 2;
+            // 
             // FirstNameText
             // 
             this.FirstNameText.Font = new System.Drawing.Font("Segoe UI", 14F);
@@ -426,55 +471,24 @@ namespace TiendaDeLibros
             this.label1.TabIndex = 1;
             this.label1.Text = "Nombre";
             // 
-            // LoginUserNameText
+            // LoginButton
             // 
-            this.LoginUserNameText.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.LoginUserNameText.Location = new System.Drawing.Point(752, 67);
-            this.LoginUserNameText.Name = "LoginUserNameText";
-            this.LoginUserNameText.Size = new System.Drawing.Size(237, 32);
-            this.LoginUserNameText.TabIndex = 2;
+            this.LoginButton.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.LoginButton.Location = new System.Drawing.Point(802, 182);
+            this.LoginButton.Name = "LoginButton";
+            this.LoginButton.Size = new System.Drawing.Size(101, 41);
+            this.LoginButton.TabIndex = 6;
+            this.LoginButton.Text = "Ingresar";
+            this.LoginButton.UseVisualStyleBackColor = true;
+            this.LoginButton.Click += new System.EventHandler(this.LoginButton_Click);
             // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label20.Location = new System.Drawing.Point(650, 70);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(77, 25);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Usuario";
-            this.label20.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label21.Location = new System.Drawing.Point(619, 119);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(108, 25);
-            this.label21.TabIndex = 1;
-            this.label21.Text = "Contraseña";
-            this.label21.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // LoginPasswordText
-            // 
-            this.LoginPasswordText.Font = new System.Drawing.Font("Segoe UI", 14F);
-            this.LoginPasswordText.Location = new System.Drawing.Point(752, 119);
-            this.LoginPasswordText.Name = "LoginPasswordText";
-            this.LoginPasswordText.Size = new System.Drawing.Size(237, 32);
-            this.LoginPasswordText.TabIndex = 2;
-            // 
-            // Form1
+            // LoginReg
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1117, 553);
             this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Name = "LoginReg";
             this.Text = "Registrarse o Ingresar";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
@@ -518,6 +532,7 @@ namespace TiendaDeLibros
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.MaskedTextBox LoginPasswordText;
+        private System.Windows.Forms.Button LoginButton;
     }
 }
 
