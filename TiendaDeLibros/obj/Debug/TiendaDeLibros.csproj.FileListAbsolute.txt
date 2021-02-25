@@ -1,0 +1,11 @@
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\bin\Debug\TiendaDeLibros.exe.config
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\bin\Debug\TiendaDeLibros.exe
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\bin\Debug\TiendaDeLibros.pdb
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.csprojAssemblyReference.cache
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.Properties.Resources.resources
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.csproj.GenerateResource.cache
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.csproj.CoreCompileInputs.cache
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.exe
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.pdb
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.LoginReg.resources
+D:\Users\Sebas\Documents\TECH\TechTest\TiendaDeLibros\obj\Debug\TiendaDeLibros.MainForm1.resources
